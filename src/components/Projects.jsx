@@ -6,7 +6,7 @@ const Projects = () => {
       <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
       <div className="py-12 px-8 flex flex-wrap gap-5">
         <div className="p-3 md:p-6 flex flex-col w-80 shadow-xl shadow-slate-900 rounded-2xl bg-[#0c0e19]">
-          <img src='\public\dice.png' className="md:h-40 h-40 m-4 "/>
+          <img src='\dice.png' className="md:h-40 h-40 m-4 "/>
           <h3 className=" px-3 text-xl md:text-2xl font-bold leading-normal">
             Dice Game
           </h3>
@@ -35,7 +35,7 @@ const Projects = () => {
       </div>
       <div className="py-12 px-8 flex flex-wrap gap-5">
         <div className="p-3 md:p-6 flex flex-col w-80 shadow-xl shadow-slate-900 rounded-2xl bg-[#0c0e19]">
-        <img src='\public\contactApp.png' className="md:h-40 h-40 m-4 "/>
+        <img src='\contactApp.png' className="md:h-40 h-40 m-4 "/>
           <h3 className=" px-3 text-xl md:text-2xl font-bold leading-normal">
             Contact Saving Application
           </h3>
@@ -63,7 +63,7 @@ const Projects = () => {
       </div>
       <div className="py-12 px-8 flex flex-wrap gap-5">
         <div className="p-3 md:p-6 flex flex-col w-80 shadow-xl shadow-slate-900 rounded-2xl bg-[#0c0e19]">
-        <img src='\public\zoBer.png' className="md:h-40 h-40 m-4 "/>
+        <img src='\zoBer.png' className="md:h-40 h-40 m-4 "/>
           <h3 className=" px-3 text-xl md:text-2xl font-bold leading-normal">
             zoBer
           </h3>
