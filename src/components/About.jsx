@@ -7,7 +7,7 @@ const About = () => {
       <div >
         <h1 className='text-2xl md:text-4xl font-bold'>About</h1>
         <div className='md:flex flex-wrap flex-col md:flex-row items-center'>
-          <img src='\public\software-developer-6521720_640.webp' className='md:h-80 m-4'/>
+          <img src='\software-developer-6521720_640.webp' className='md:h-80 m-4'/>
           <ul>
           <div className='flex gap-3 py-4'>
                 <ImArrowRight2 size={30} className="mt-1"/>
