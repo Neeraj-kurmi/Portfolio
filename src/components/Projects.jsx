@@ -64,34 +64,6 @@ const Projects = () => {
       </div>
       <div className="py-12 px-8 flex flex-wrap gap-5">
         <div className="p-3 md:p-6 flex flex-col w-80 shadow-xl shadow-slate-900 rounded-2xl bg-[#0c0e19]">
-        <img src='\contactApp.png' className="md:h-40 h-40 m-4 "/>
-          <h3 className=" px-3 text-xl md:text-2xl font-bold leading-normal">
-            Contact Saving Application
-          </h3>
-          <p className="px-4 text-sm md:text-md leading-tight py-1">
-            this is an application which help to save contacts created in
-            React.js ,tailwind css and FireBase
-          </p>
-          <div className="mt-1 md:p-4 flex gap-2 md:gap-4">
-            <button
-              className=" md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 bg-[#465697]
-        duration-300 hover:scale-105 font-semibold rounded-3xl"
-            >
-              Demo
-            </button>
-            <button
-              className=" md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 bg-[#465697]
-        duration-300 hover:scale-105 font-semibold rounded-3xl"
-            >
-              <a href="https://github.com/Neeraj-kurmi/Contact_Saving_App" target="_blank">
-                Source Code
-              </a>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div className="py-12 px-8 flex flex-wrap gap-5">
-        <div className="p-3 md:p-6 flex flex-col w-80 shadow-xl shadow-slate-900 rounded-2xl bg-[#0c0e19]">
         <img src='\zoBer.png' className="md:h-40 h-40 m-4 "/>
           <h3 className=" px-3 text-xl md:text-2xl font-bold leading-normal">
             zoBer
