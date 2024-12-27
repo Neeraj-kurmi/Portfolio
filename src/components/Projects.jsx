@@ -35,6 +35,35 @@ const Projects = () => {
       </div>
       <div className="py-12 px-8 flex flex-wrap gap-5">
         <div className="p-3 md:p-6 flex flex-col w-80 shadow-xl shadow-slate-900 rounded-2xl bg-[#0c0e19]">
+          <img src='\public\vlog.png' className="md:h-40 h-40 m-4 "/>
+          <h3 className=" px-3 text-xl md:text-2xl font-bold leading-normal">
+            Vlog Website
+          </h3>
+          <p className="px-4 text-sm md:text-md leading-tight py-2">
+            This is a fontend project user can join groups and explore social environment moments and created in React.js and tailwind.
+          </p>
+          <div className="mt-2 p-2 flex gap-2 md:gap-4">
+            <button
+              className=" md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 bg-[#465697]
+        duration-300 hover:scale-105 font-semibold rounded-3xl"
+            >
+              <a href="https://vlog-project.vercel.app/" target="_blank">
+                Demo
+              </a>
+            </button>
+            <button
+              className=" md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 bg-[#465697]
+        duration-300 hover:scale-105 font-semibold rounded-3xl"
+            >
+             <a href="https://github.com/Neeraj-kurmi/Vlog_project" target="_blank">
+                Source Code
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="py-12 px-8 flex flex-wrap gap-5">
+        <div className="p-3 md:p-6 flex flex-col w-80 shadow-xl shadow-slate-900 rounded-2xl bg-[#0c0e19]">
         <img src='\contactApp.png' className="md:h-40 h-40 m-4 "/>
           <h3 className=" px-3 text-xl md:text-2xl font-bold leading-normal">
             Contact Saving Application
