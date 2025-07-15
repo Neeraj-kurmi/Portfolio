@@ -47,7 +47,7 @@ const Projects = () => {
               className=" md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 bg-[#465697]
         duration-300 hover:scale-105 font-semibold rounded-3xl"
             >
-              <a href="https://vlog-project.vercel.app/" target="_blank">
+              <a href="https://real-trust-eight.vercel.app/" target="_blank">
                 Demo
               </a>
             </button>
@@ -55,7 +55,7 @@ const Projects = () => {
               className=" md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 bg-[#465697]
         duration-300 hover:scale-105 font-semibold rounded-3xl"
             >
-             <a href="https://github.com/Neeraj-kurmi/Vlog_project" target="_blank">
+             <a href="https://github.com/Neeraj-kurmi/RealTrust" target="_blank">
                 Source Code
               </a>
             </button>
