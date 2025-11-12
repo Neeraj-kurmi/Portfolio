@@ -37,17 +37,17 @@ const Projects = () => {
         <div className="p-3 md:p-6 flex flex-col w-80 shadow-xl shadow-slate-900 rounded-2xl bg-[#0c0e19]">
           <img src='\trust.png' className="md:h-40 h-40 m-4 "/>
           <h3 className=" px-3 text-xl md:text-2xl font-bold leading-normal">
-            Real Trust Website
+           Eat More Website
           </h3>
           <p className="px-4 text-sm md:text-md leading-tight py-2">
-             This is a FullStack website.Created by using MERN Stack technology
+             This is a FullStack Project.Created by using React and springboot technology Stack , would you like to explore project please click on demo button
           </p>
           <div className="mt-2 p-2 flex gap-2 md:gap-4">
             <button
               className=" md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 bg-[#465697]
         duration-300 hover:scale-105 font-semibold rounded-3xl"
             >
-              <a href="https://real-trust-eight.vercel.app/" target="_blank">
+              <a href="https://eat-more-zeta.vercel.app/" target="_blank">
                 Demo
               </a>
             </button>
@@ -55,7 +55,7 @@ const Projects = () => {
               className=" md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 bg-[#465697]
         duration-300 hover:scale-105 font-semibold rounded-3xl"
             >
-             <a href="https://github.com/Neeraj-kurmi/RealTrust" target="_blank">
+             <a href="https://github.com/Neeraj-kurmi/EatMoreWebApp" target="_blank">
                 Source Code
               </a>
             </button>
