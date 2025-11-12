@@ -13,7 +13,7 @@ const About = () => {
                 <ImArrowRight2 size={30} className="mt-1"/>
                 <span className='w-96'>
                     <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Welcome to My Portfolio!</h1>
-                    <p>Hi there! I’m Neeraj Kurmi, a passionate web developer specializing in the Full stack (MongoDB, Spring boot , SQL , React, Node.js). With a deep love for creating seamless, dynamic web applications, I thrive on turning complex problems into elegant solutions.</p>
+                    <p>Hi there! I’m Neeraj Kurmi, a passionate web developer specializing in the Full stack (MongoDB, Spring boot , SQL , React). With a deep love for creating seamless, dynamic web applications, I thrive on turning complex problems into elegant solutions.</p>
                 </span>
             </div>
             <div className='flex gap-3 py-4'>
