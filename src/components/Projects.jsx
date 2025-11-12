@@ -69,9 +69,7 @@ const Projects = () => {
             zoBer
           </h3>
           <p className="px-4 text-sm md:text-md leading-tight py-2">
-            this is a FullStack website which help to serch-find-get-job created
-            in React.js ,Mongodb ,Express ,Node
-          </p>
+            this is a FullStack website which help to serch-find-get-job
           <div className="mt-2 p-2 md:p-4 flex gap-2 md:gap-4">
             <button
               className=" md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 bg-[#465697]
