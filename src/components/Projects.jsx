@@ -35,7 +35,7 @@ const Projects = () => {
       </div>
       <div className="py-12 px-8 flex flex-wrap gap-5">
         <div className="p-3 md:p-6 flex flex-col w-80 shadow-xl shadow-slate-900 rounded-2xl bg-[#0c0e19]">
-          <img src='\trust.png' className="md:h-40 h-40 m-4 "/>
+          <img src='\eatmore.png' className="md:h-40 h-40 m-4 "/>
           <h3 className=" px-3 text-xl md:text-2xl font-bold leading-normal">
            Eat More Website
           </h3>
