@@ -1,30 +1,51 @@
-import React from 'react'
-import { CiLinkedin } from 'react-icons/ci'
-import { FaGithub } from 'react-icons/fa'
-import { MdOutlineEmail } from 'react-icons/md'
+import React from "react";
+import { CiLinkedin } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
 import { SiLeetcode } from "react-icons/si";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <div id='Footer' className='flex justify-around bg-[#465697] text-white p-10 md:p-12 items-center'>
-        <div>
-            <h1 className='text-2xl md:text-6xl font-bold'>Contact-us</h1>
-            <h1 className='text-sm md:text-2xl font-normal'>Feel Free To Reach Out !</h1>
-        </div>
-        <ul className='text-sm md:text-xl'>
-            <li className='flex gap-1 items-center'><MdOutlineEmail size={20}/>neerajkurmi2002@gmail.com</li>
-            <li className='flex gap-1 items-center '><CiLinkedin/><a href="www.linkedin.com/in/neeraj-kurmi-365113283" target="_blank" className='cursor-pointer text-blue-400'>
-            linkedin
-              </a></li>
-            <li className='flex gap-1 items-center '><FaGithub/><a href="https://github.com/Neeraj-kurmi" target="_blank" className='cursor-pointer text-blue-400'>
-            github
-              </a></li>
-            <li className='flex gap-1 items-center '><SiLeetcode/><a href="https://leetcode.com/u/NRJ_/" target="_blank" className='cursor-pointer text-blue-400'>
-            Leetcode
-              </a></li>
-        </ul>
-    </div>
-  )
-}
+    <footer
+      id="Footer"
+      className="bg-gradient-to-r from-indigo-600 via-blue-600 to-purple-700 text-white px-6 py-14 md:px-20 flex flex-col md:flex-row justify-between items-center gap-10"
+    >
+      <motion.div
+        initial={{ opacity: 0, x: -40 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
+        className="text-center md:text-left"
+      >
+        <h1 className="text-3xl md:text-6xl font-extrabold">Contact Me</h1>
+        <p className="text-sm md:text-2xl mt-2 opacity-90">Feel Free To Reach Out!</p>
+      </motion.div>
 
-export default Footer
+      <ul className="space-y-4 text-sm md:text-xl">
+        <li className="flex items-center justify-center md:justify-start gap-2">
+          <MdOutlineEmail size={22} /> neerajkurmi2002@gmail.com
+        </li>
+
+        {[
+          { Icon: CiLinkedin, label: "LinkedIn", link: "#" },
+          { Icon: FaGithub, label: "GitHub", link: "#" },
+          { Icon: SiLeetcode, label: "LeetCode", link: "#" },
+        ].map((item, i) => (
+          <motion.li
+            key={i}
+            whileHover={{ scale: 1.2, rotate: 3 }}
+            transition={{ duration: 0.3 }}
+            className="flex items-center justify-center md:justify-start gap-2 cursor-pointer hover:text-cyan-300"
+          >
+            <item.Icon size={24} />
+            <a href={item.link} target="_blank" rel="noreferrer">
+              {item.label}
+            </a>
+          </motion.li>
+        ))}
+      </ul>
+    </footer>
+  );
+};
+
+export default Footer;
