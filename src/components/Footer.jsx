@@ -27,9 +27,9 @@ const Footer = () => {
         </li>
 
         {[
-          { Icon: CiLinkedin, label: "LinkedIn", link: "#" },
-          { Icon: FaGithub, label: "GitHub", link: "#" },
-          { Icon: SiLeetcode, label: "LeetCode", link: "#" },
+          { Icon: CiLinkedin, label: "LinkedIn", link: "https://www.linkedin.com/in/neeraj-kurmi-365113283" },
+          { Icon: FaGithub, label: "GitHub", link: "https://github.com/Neeraj-kurmi/" },
+          { Icon: SiLeetcode, label: "LeetCode", link: "https://leetcode.com/u/NRJ_/" },
         ].map((item, i) => (
           <motion.li
             key={i}
