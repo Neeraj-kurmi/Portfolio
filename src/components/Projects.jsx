@@ -17,11 +17,11 @@ const projects = [
     code: "https://github.com/Neeraj-kurmi/EatMoreWebApp",
   },
   {
-    title: "ZoBer",
-    img: "/zoBer.png",
-    desc: "A job search platform built full-stack.",
-    demo: "https://zober.onrender.com/",
-    code: "https://github.com/Neeraj-kurmi/zoBer",
+    title: "QuickServe",
+    img: "/quickServeImg.jpeg",
+    desc: "A local service finder platform built using React + Spring Boot + Postgesql.",
+    demo: "https://quick-serve-chi.vercel.app/",
+    code: "https://github.com/Neeraj-kurmi/QuickServeLocalizedServiceAndBookingApp",
   },
 ];
 
