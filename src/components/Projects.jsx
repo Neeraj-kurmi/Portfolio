@@ -18,7 +18,7 @@ const projects = [
   },
   {
     title: "QuickServe",
-    img: "/quickServeImg.jpeg",
+    img: "/QuickServe.png",
     desc: "A local service finder platform built using React + Spring Boot + Postgesql.",
     demo: "https://quick-serve-chi.vercel.app/",
     code: "https://github.com/Neeraj-kurmi/QuickServeLocalizedServiceAndBookingApp",
